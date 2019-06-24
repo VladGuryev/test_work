@@ -1,11 +1,11 @@
-#ifndef DICTIONARY_H
-#define DICTIONARY_H
+#ifndef IDICTIONARY_H
+#define IDICTIONARY_H
 
 template<typename TKey, typename TValue>
-class Dictionary
+class IDictionary
 {
 public:
-    virtual ~Dictionary() = default;
+    virtual ~IDictionary() = default;
 
     virtual const TValue& Get(const TKey& key) const = 0;
     virtual void Set(const TKey& key, const TValue& value) = 0;

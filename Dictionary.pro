@@ -7,7 +7,9 @@ SOURCES += \
         main.cpp
 
 HEADERS += \
-    custom_dictionary.h \
-    dictionary.h \
-    custom_not_found_exception.h \
-    not_found_exception.h
+    IDictionary.h \
+    Dictionary.h \
+    INotFoundException.h \
+    NotFoundException.h \
+    TestRunner.h \
+    Tests.h
