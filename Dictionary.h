@@ -30,10 +30,10 @@ public:
     }
 
     //std-like interface
-    TValue& operator[](TKey& key){
+    TValue& operator[](const TKey& key){
         return dict[key];
     }
-    const TValue& operator[](TKey& key) const {
+    const TValue& operator[](const TKey& key) const {
         return dict[key];
     }
 
