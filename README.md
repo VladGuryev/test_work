@@ -4,4 +4,4 @@ This project realizes the [*IDictionary*](https://github.com/VladGuryev/test_wor
 
 1) The project is build with CMake
 2) The IDictionary interface is a wrapper for std::map container
-3) The classes are covered with unit tests with the help of little framework - TestRunner.h developed by Yandex            Coursera team.
+3) The classes are covered with unit tests with the help of little framework - [TestRunner.h](https://github.com/VladGuryev/test_work/blob/master/TestRunner.h) developed by Yandex            Coursera team.
