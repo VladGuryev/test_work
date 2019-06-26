@@ -1,6 +1,6 @@
 #ifndef NOTFOUNDEXCEPTION_H
 #define NOTFOUNDEXCEPTION_H
-#include <INotFoundException.h>
+#include "INotFoundException.h"
 
 template<typename TKey>
 class NotFoundException : public INotFoundException<TKey>

@@ -1,8 +1,8 @@
 #ifndef CUSTOM_DICTIONARY_H
 #define CUSTOM_DICTIONARY_H
 #include <map>
-#include <IDictionary.h>
-#include <NotFoundException.h>
+#include "IDictionary.h"
+#include "NotFoundException.h"
 
 template<class TKey, class TValue>
 class Dictionary : public IDictionary<TKey, TValue>

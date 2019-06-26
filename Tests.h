@@ -1,5 +1,5 @@
 #include <random>
-#include <Dictionary.h>
+#include "Dictionary.h"
 #include "NotFoundException.h"
 #include "TestRunner.h"
 
