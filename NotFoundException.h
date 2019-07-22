@@ -9,7 +9,7 @@ private:
     const TKey exceptionKey;
 
 public:
-    explicit NotFoundException(const TKey& notFoundKey) :
+    explicit NotFoundException(const TKey notFoundKey) :
         exceptionKey(notFoundKey){ }
 
     virtual ~NotFoundException() noexcept { }
