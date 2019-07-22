@@ -6,7 +6,7 @@ template<typename TKey>
 class NotFoundException : public INotFoundException<TKey>
 {
 private:
-    const TKey& exceptionKey;
+    const TKey exceptionKey;
 
 public:
     explicit NotFoundException(const TKey& notFoundKey) :
